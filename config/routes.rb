@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   devise_for :models
   get 'blog/my_page'
   root 'blog#my_page'
