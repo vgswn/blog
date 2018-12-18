@@ -10,12 +10,12 @@
   </head>
 
   <body>
-
-    <%= render 'layouts/nav'%>
+<%= bootstrap_flash %>
+    <%= render 'layouts/nav' %>
     <div class = 'container'>
-      <%= bootstrap_flash %>
+      
     <%= yield %>
   </div>
-    <%= render 'layouts/foot'%>
+    <%= render 'layouts/foot' %>
   </body>
 </html>
