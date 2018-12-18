@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get 'index/about'
+  get 'index/contact'
   devise_for :users
   devise_for :models
   get 'blog/my_page'
