@@ -1,7 +1,4 @@
 class IndexController < ApplicationController
-  def about
-  end
-
-  def contact
+  def projects
   end
 end
